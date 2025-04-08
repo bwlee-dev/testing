@@ -1,0 +1,276 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# --- Basic Site Information ---
+title: Beam Measurement Software Manual # 사이트 제목 (탭이나 헤더에 표시됨)
+email: your_email@example.com # 연락처 이메일 (선택 사항)
+description: >- # 사이트 설명 (검색 엔진 결과 등에 사용될 수 있음)
+  Documentation for the Beam Measurement Software developed for antenna beam pattern analysis.
+# baseurl: "/your_repository_name" # GitHub Project 페이지의 경우 저장소 이름 (예: "/my-awesome-repo")
+# url: "https://your_username.github.io" # GitHub Pages의 기본 URL (예: "https://username.github.io")
+# --- 주석 처리된 baseurl과 url은 GitHub Pages 설정에 따라 필요할 수 있습니다. ---
+# --- Project Page (https://username.github.io/repo-name/)의 경우 baseurl에 "/repo-name"을 입력하세요. ---
+# --- User/Organization Page (https://username.github.io/)의 경우 baseurl은 보통 비워둡니다 (""). ---
+
+# --- Build settings ---
+markdown: kramdown # Markdown 렌더링 엔진 (kramdown이 기본이며 GitHub Pages에서 지원됨)
+theme: jekyll-theme-minimal # Jekyll 테마 (GitHub Pages에서 지원하는 테마 중 하나)
+                           # 다른 테마 예: jekyll-theme-cayman, jekyll-theme-primer 등
+
+plugins: # 사용할 Jekyll 플러그인 목록
+  - jekyll-feed # RSS 피드 생성 (블로그 형태가 아니면 필수는 아님)
+  - jekyll-seo-tag # 기본적인 SEO 메타 태그 자동 생성
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# --- Defaults ---
+# 모든 Markdown 페이지에 기본 레이아웃을 적용합니다.
+# 이렇게 하면 각 .md 파일 상단에 'layout: page'를 일일이 추가할 필요가 없습니다.
+defaults:
+  - scope:
+      path: "" # 프로젝트 내 모든 경로
+      type: "pages" # 페이지 타입 (Markdown 파일 등)
+    values:
+      layout: "default" # 사용할 레이아웃 이름 (선택한 테마에 따라 'page' 또는 'default' 등이 될 수 있음)
+                       # jekyll-theme-minimal은 'default' 레이아웃을 사용합니다.
+
+# --- 추가 사용자 정의 변수 (필요한 경우) ---
+# 예: repository_url: https://github.com/your_username/your_repository_name
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# --- Basic Site Information ---
+title: Beam Measurement Software Manual # 사이트 제목 (탭이나 헤더에 표시됨)
+email: your_email@example.com # 연락처 이메일 (선택 사항)
+description: >- # 사이트 설명 (검색 엔진 결과 등에 사용될 수 있음)
+  Documentation for the Beam Measurement Software developed for antenna beam pattern analysis.
+# baseurl: "/your_repository_name" # GitHub Project 페이지의 경우 저장소 이름 (예: "/my-awesome-repo")
+# url: "https://your_username.github.io" # GitHub Pages의 기본 URL (예: "https://username.github.io")
+# --- 주석 처리된 baseurl과 url은 GitHub Pages 설정에 따라 필요할 수 있습니다. ---
+# --- Project Page (https://username.github.io/repo-name/)의 경우 baseurl에 "/repo-name"을 입력하세요. ---
+# --- User/Organization Page (https://username.github.io/)의 경우 baseurl은 보통 비워둡니다 (""). ---
+
+# --- Build settings ---
+markdown: kramdown # Markdown 렌더링 엔진 (kramdown이 기본이며 GitHub Pages에서 지원됨)
+theme: jekyll-theme-minimal # Jekyll 테마 (GitHub Pages에서 지원하는 테마 중 하나)
+                           # 다른 테마 예: jekyll-theme-cayman, jekyll-theme-primer 등
+
+plugins: # 사용할 Jekyll 플러그인 목록
+  - jekyll-feed # RSS 피드 생성 (블로그 형태가 아니면 필수는 아님)
+  - jekyll-seo-tag # 기본적인 SEO 메타 태그 자동 생성
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# --- Defaults ---
+# 모든 Markdown 페이지에 기본 레이아웃을 적용합니다.
+# 이렇게 하면 각 .md 파일 상단에 'layout: page'를 일일이 추가할 필요가 없습니다.
+defaults:
+  - scope:
+      path: "" # 프로젝트 내 모든 경로
+      type: "pages" # 페이지 타입 (Markdown 파일 등)
+    values:
+      layout: "default" # 사용할 레이아웃 이름 (선택한 테마에 따라 'page' 또는 'default' 등이 될 수 있음)
+                       # jekyll-theme-minimal은 'default' 레이아웃을 사용합니다.
+
+# --- 추가 사용자 정의 변수 (필요한 경우) ---
+# 예: repository_url: https://github.com/your_username/your_repository_name
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# --- Basic Site Information ---
+title: Beam Measurement Software Manual # 사이트 제목 (탭이나 헤더에 표시됨)
+email: your_email@example.com # 연락처 이메일 (선택 사항)
+description: >- # 사이트 설명 (검색 엔진 결과 등에 사용될 수 있음)
+  Documentation for the Beam Measurement Software developed for antenna beam pattern analysis.
+# baseurl: "/your_repository_name" # GitHub Project 페이지의 경우 저장소 이름 (예: "/my-awesome-repo")
+# url: "https://your_username.github.io" # GitHub Pages의 기본 URL (예: "https://username.github.io")
+# --- 주석 처리된 baseurl과 url은 GitHub Pages 설정에 따라 필요할 수 있습니다. ---
+# --- Project Page (https://username.github.io/repo-name/)의 경우 baseurl에 "/repo-name"을 입력하세요. ---
+# --- User/Organization Page (https://username.github.io/)의 경우 baseurl은 보통 비워둡니다 (""). ---
+
+# --- Build settings ---
+markdown: kramdown # Markdown 렌더링 엔진 (kramdown이 기본이며 GitHub Pages에서 지원됨)
+theme: jekyll-theme-minimal # Jekyll 테마 (GitHub Pages에서 지원하는 테마 중 하나)
+                           # 다른 테마 예: jekyll-theme-cayman, jekyll-theme-primer 등
+
+plugins: # 사용할 Jekyll 플러그인 목록
+  - jekyll-feed # RSS 피드 생성 (블로그 형태가 아니면 필수는 아님)
+  - jekyll-seo-tag # 기본적인 SEO 메타 태그 자동 생성
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# --- Defaults ---
+# 모든 Markdown 페이지에 기본 레이아웃을 적용합니다.
+# 이렇게 하면 각 .md 파일 상단에 'layout: page'를 일일이 추가할 필요가 없습니다.
+defaults:
+  - scope:
+      path: "" # 프로젝트 내 모든 경로
+      type: "pages" # 페이지 타입 (Markdown 파일 등)
+    values:
+      layout: "default" # 사용할 레이아웃 이름 (선택한 테마에 따라 'page' 또는 'default' 등이 될 수 있음)
+                       # jekyll-theme-minimal은 'default' 레이아웃을 사용합니다.
+
+# --- 추가 사용자 정의 변수 (필요한 경우) ---
+# 예: repository_url: https://github.com/your_username/your_repository_name
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# --- Basic Site Information ---
+title: Beam Measurement Software Manual # 사이트 제목 (탭이나 헤더에 표시됨)
+email: your_email@example.com # 연락처 이메일 (선택 사항)
+description: >- # 사이트 설명 (검색 엔진 결과 등에 사용될 수 있음)
+  Documentation for the Beam Measurement Software developed for antenna beam pattern analysis.
+# baseurl: "/your_repository_name" # GitHub Project 페이지의 경우 저장소 이름 (예: "/my-awesome-repo")
+# url: "https://your_username.github.io" # GitHub Pages의 기본 URL (예: "https://username.github.io")
+# --- 주석 처리된 baseurl과 url은 GitHub Pages 설정에 따라 필요할 수 있습니다. ---
+# --- Project Page (https://username.github.io/repo-name/)의 경우 baseurl에 "/repo-name"을 입력하세요. ---
+# --- User/Organization Page (https://username.github.io/)의 경우 baseurl은 보통 비워둡니다 (""). ---
+
+# --- Build settings ---
+markdown: kramdown # Markdown 렌더링 엔진 (kramdown이 기본이며 GitHub Pages에서 지원됨)
+theme: jekyll-theme-minimal # Jekyll 테마 (GitHub Pages에서 지원하는 테마 중 하나)
+                           # 다른 테마 예: jekyll-theme-cayman, jekyll-theme-primer 등
+
+plugins: # 사용할 Jekyll 플러그인 목록
+  - jekyll-feed # RSS 피드 생성 (블로그 형태가 아니면 필수는 아님)
+  - jekyll-seo-tag # 기본적인 SEO 메타 태그 자동 생성
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# --- Defaults ---
+# 모든 Markdown 페이지에 기본 레이아웃을 적용합니다.
+# 이렇게 하면 각 .md 파일 상단에 'layout: page'를 일일이 추가할 필요가 없습니다.
+defaults:
+  - scope:
+      path: "" # 프로젝트 내 모든 경로
+      type: "pages" # 페이지 타입 (Markdown 파일 등)
+    values:
+      layout: "default" # 사용할 레이아웃 이름 (선택한 테마에 따라 'page' 또는 'default' 등이 될 수 있음)
+                       # jekyll-theme-minimal은 'default' 레이아웃을 사용합니다.
+
+# --- 추가 사용자 정의 변수 (필요한 경우) ---
+# 예: repository_url: https://github.com/your_username/your_repository_name
